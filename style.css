@@ -1,0 +1,136 @@
+/* CSS Document */
+html, body {
+  width: 100%;
+	height: 100%;
+  margin: 0px;
+}
+
+*{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:black;
+	text-decoration: none;
+}
+
+#page {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	
+}
+#page-head {
+	width: 100%;
+	height: 48px;
+	
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+#prd-view {
+	width: 100%;
+	
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	
+	
+	
+}
+#prd-menu {
+	width: 100%;
+	height: 72px;
+	background-border: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu-btn {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid black;
+	flex-direction: column;
+	text-align: center;
+}
+.menu-btn .material-icons {
+	font-size: 32px;
+
+}
+#page-head a .material-icons {
+	font-size: 32px;
+	
+	
+}
+#page-head a {
+	margin: auto 10px;
+}
+#picture {
+	width: 180px;
+	height: 300px;
+	flex: 1;
+	margin: auto;
+}
+#img-cont {
+	justify-content: center;
+	flex: 1;
+	width: 90%;
+	display: flex;
+	margin: auto;
+	
+}
+#descr {
+	border-top: 1px solid black;
+	height: 72px;
+	width: 100%;
+}
+#descr p {
+	margin: 10px;
+}
+
+
+#myCarousel {
+	height: 100%;	
+}
+.item, .carousel-inner, glyphicon, glyphicon-chevron-right{
+	height: 100%;
+	margin: auto;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+.slides {
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin: auto;
+}
+.carousel-control span.glyphicon {
+    color: black;
+}
+.carousel-indicators .active{
+    background-color: rgba(0,0,0,0.72);
+	border: 0px;
+}
+.carousel-indicators li {
+  background-color: dimgrey;
+	border: 0px;
+  
+}
+
+#slide1 {
+background-image: url(sorttshirt.jpg);
+
+width: 80%;}
+#slide2 {
+	background-image: url(asiat.jpg);
+	
+}
+#slide3 {background-image:url(process.jpg);
+}
+
+
+
+
